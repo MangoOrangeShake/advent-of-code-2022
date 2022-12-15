@@ -1,0 +1,26 @@
+BasedOnStyle: LLVM
+IndentWidth: 4
+TabWidth: 2
+
+AlignAfterOpenBracket: BlockIndent
+AlignConsecutiveAssignments: AcrossComments
+AlignConsecutiveMacros: AcrossComments
+
+AllowShortEnumsOnASingleLine: true
+AllowShortCaseLabelsOnASingleLine: true
+
+BreakBeforeBraces: WebKit
+
+ColumnLimit: 90
+
+IndentCaseLabels: true
+IndentGotoLabels: true
+
+SeparateDefinitionBlocks: Always
+
+SpaceBeforeAssignmentOperators: true
+SpaceBeforeCpp11BracedList: true
+Cpp11BracedListStyle: false
+
+Standard: c++20
+
