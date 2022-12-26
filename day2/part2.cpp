@@ -36,10 +36,10 @@ auto CalcScore(char enemy_move, char outcome ) -> int
 
 auto main() -> int
 {
-    std::ifstream inf { "encrypted.txt" };
+    std::ifstream inf { "day2.txt" };
 
     if (!inf) {
-        std::cerr << "Can't read encrypted.txt\n";
+        std::cerr << "Can't read day2.txt\n";
         return 1;
     }
 

@@ -60,10 +60,10 @@ auto main() -> int
     char my_move { 0 };
 
     // Read encrypted file then write separate file with correct RPS
-    std::ifstream inf { "encrypted.txt" };
+    std::ifstream inf { "day2.txt" };
 
     if (!inf) {
-        std::cerr << "error: encrypted.txt could not be opened\n";
+        std::cerr << "error: day2.txt could not be opened\n";
         return 1;
     }
 
