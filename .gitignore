@@ -1,3 +1,4 @@
 day*/.clangd
 day*/.clang-tidy
 day*/.clang-format
+day*/compile*
