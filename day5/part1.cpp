@@ -26,6 +26,7 @@ int main()
     int extract_stack { 0 };
     int insert_stack { 0 };
 
+    // Skip first 10 lines
     for (int i = 0; i < skiplines; i++) {
         std::getline(inf, file_buffer);
     }
@@ -38,6 +39,7 @@ int main()
         inf >> insert_stack;
         std::getline(inf, file_buffer, '\n');
 
+        // Procedural pop back and push back from stack 1 to stack 2
         for (int i = 0; i < amount; i++) {
             payload_buffer = map_of_stacks[extract_stack].back();
             map_of_stacks[extract_stack].pop_back();
